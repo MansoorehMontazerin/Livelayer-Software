@@ -1,15 +1,17 @@
 # Livelayer-Software
 A Semi-Automatic Software for Segmentation of Layers and Objects in Optical Coherence Tomography Images 
 
+* Department of Electrical and Computer Engineering, Isfahan University of Technology.
 * MISP Research Center, Isfahan University of Medical Sciences.
 
-## USAGE
 
-Open app1.mlapp file in the MATLAB App Designer environment
+### USAGE
+
+Open app1.mlapp file in the MATLAB App Designer environment.
 
 ---- File Tab ----
 
-We've put three formats that are most commonly used so that the user can select the desired one and load it into the MATLAB software environment. 
+<div style="text-align: justify">  We've put three formats that are most commonly used so that the user can select the desired one and load it into the MATLAB software environment. 
 After loading data with one of the “.mat”, “.octbin” or ".bin" formats, the user has an overview of different B-Scans using the top spinner. The 
 "Rotate" button is set to rotate the image by 90, 180 or 270 degrees. Additionally, there is a text box in which the user types an appropriate path 
 to save all layers and fluids’ coordinates and information.
@@ -59,4 +61,4 @@ one separate fluid is recognized.
 ---- Peripapillary Tab ----
 
 First of all, the user should load a relevant data of the optic nerve head. A proper data with a ".png" format is put here for a real test. Following that, the user should
-adopt a procedure similar to that of the B-Scans' segmentation to acquire all peripapillary-related layers.
+adopt a procedure similar to that of the B-Scans' segmentation to acquire all peripapillary-related layers. </div>
