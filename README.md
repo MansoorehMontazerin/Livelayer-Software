@@ -29,7 +29,7 @@ In the Manual-Grid Tab, the user chooses the to-be-segmented boundary and enters
 In the Layer Correction Tab, the user can correct the defective boundaries in previous two methods. The user should first, click on the beginning and end of the intended path for correction. This path is omitted and gridded by vertical lines the number of which should be set by the “Grid” textbox. The following steps is exactly like the Manual-Grid layer segmentation. When finished, the corrected boundary is replaced.
 
 In the Save Layer Info Tab, all information related to the app’s semi-automatic section is saved.
-
+"voldata.vol" is a proper data sample with a ".vol" format for a real test.
 
 #### ---- Fluid Segmentation Tab ----
 
