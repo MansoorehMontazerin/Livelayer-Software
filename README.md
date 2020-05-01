@@ -30,6 +30,7 @@ In the Layer Correction Tab, the user can correct the defective boundaries in pr
 
 In the Save Layer Info Tab, all information related to the app’s semi-automatic section is saved.
 
+"voldata.vol" is a proper data sample with a ".vol" format for a real test.
 
 #### ---- Fluid Segmentation Tab ----
 
