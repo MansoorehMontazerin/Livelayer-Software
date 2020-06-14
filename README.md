@@ -7,7 +7,12 @@ A Semi-Automatic Software for Segmentation of Layers and Objects in Optical Cohe
 
 ### USAGE
 
+For users having MATLAB installed on their computers:
+
 Open app1.mlapp file in the MATLAB App Designer environment.
+
+For users not having MATLAB installed on their computers:
+
 
 #### ---- File Tab ----
 
