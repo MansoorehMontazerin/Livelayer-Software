@@ -1,3 +1,7 @@
+%{
+If a layer is acquired poorly, this function helps the user to manually
+correct the layer and replace it with the previous one
+%}
 function [xf,yf]=manual_correction(I,contourx,contoury,m)
 imshow(I)
 hold on

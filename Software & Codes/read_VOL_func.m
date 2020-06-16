@@ -1,5 +1,8 @@
+%{
+This function converts .vol data formats to a format recognizable by MATLAB
+%}
 function [NumBScans,Im_SLO_Image,OCTs,header,BScanHeader]= read_VOL_func(address)
-%by rahele kafieh 2012
+%by Rahele Kafieh 2012
 
 
 fid=fopen(address);

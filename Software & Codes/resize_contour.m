@@ -1,4 +1,8 @@
- function [contoury_new,contourx_new]=resize_contour(contouryo,contourxo,S,Ig)
+%{
+This function stretches an acquired boundary to fit into the width of the
+image
+%}
+function [contoury_new,contourx_new]=resize_contour(contouryo,contourxo,S,Ig)
 [M,N]=size(Ig);
 s=numel(contouryo);
 contouryn=contouryo;

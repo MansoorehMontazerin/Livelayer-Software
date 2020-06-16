@@ -1,6 +1,8 @@
+%{
+This function is designed to manually segment the boundaries with MATLAB
+imfreehand function
+%}
 function [yn]=free_hand(I)
-% tic
-%I=OCTs(:,:,9);
 figure,imshow(I);
 xf=[];
 yf=[];
@@ -44,7 +46,3 @@ if numel(yn)>size(I,2)
     end
 end
 close(gcf)
-% figure,imshow(I)
-% hold on,plot(1:size(I,2),yn,'r','linewidth',1.5);
-% close(gcf)
-% elapsedTime = toc;

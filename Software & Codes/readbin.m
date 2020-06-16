@@ -1,3 +1,6 @@
+%{
+This function converts .octbin data formats to a format recognizable by MATLAB
+%}
 function [ s ] = readbin(filename)
 % [ s ] = readbin(filename)
 % read a bin file writen by C++ class CVMatTreeStructBin

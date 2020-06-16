@@ -1,3 +1,7 @@
+%{
+This function is used in order to black some boundaries interfering with
+the segmentation process
+%}
 function [Gy_black]= black(contourx,contoury,Gy)
 Gy_black = Gy;
 s=size(contourx);
