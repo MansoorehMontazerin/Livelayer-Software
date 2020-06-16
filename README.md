@@ -7,7 +7,14 @@ A Semi-Automatic Software for Segmentation of Layers and Objects in Optical Cohe
 
 ### USAGE
 
-Open app1.mlapp file in the MATLAB App Designer environment.
+##### For users having MATLAB installed on their computers:
+
+Open app1.mlapp file in the MATLAB (R2018a or later) App Designer environment.  
+
+"Image Processing" and "Curve Fitting" toolboxes are necessary for running the software.
+
+##### For users not having MATLAB installed on their computers:
+
 
 #### ---- File Tab ----
 
