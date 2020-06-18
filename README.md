@@ -15,6 +15,7 @@ Open app1.mlapp file in the MATLAB (R2018a or later) App Designer environment.
 
 ##### For users not having MATLAB installed on their computers:
 
+Open MyAppInstaller_web.exe file and install the app along with all other required files for running it.
 
 #### ---- File Tab ----
 
