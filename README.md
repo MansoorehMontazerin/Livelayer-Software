@@ -21,6 +21,7 @@ Open MyAppInstaller_web.exe file and install the app along with all other requir
 
 We've put three formats that are most commonly used so that the user can select the desired one and load it into the MATLAB software environment. After loading data with one of the “.mat”, “.octbin” or ".bin" formats, the user has an overview of different B-Scans using the top spinner. The "Rotate" button is set to rotate the image by 90, 180 or 270 degrees. Additionally, there is a text box in which the user types an appropriate path to save all layers and fluids’ coordinates and information.
 
+"Parameters.xlsx" file allows the user to desirably change the software's critical parameters according to his own dataset. Every time a parameter is changed, please save the excel file and push the "Load Excel File" button to transfer the parameters to the software.
 
 #### ---- Manual Layer Segmentation Tab ----
 
