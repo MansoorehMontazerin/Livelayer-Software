@@ -1,5 +1,5 @@
 # Livelayer-Software
-A Semi-Automatic Software for Segmentation of Layers and Objects in Optical Coherence Tomography Images 
+A Semi-Automatic Software Program for Segmentation of Layers and Diabetic Macular Edema in Optical Coherence Tomography Images 
 
 * Department of Electrical and Computer Engineering, Isfahan University of Technology.
 * MISP Research Center, Isfahan University of Medical Sciences.
@@ -29,9 +29,9 @@ The user can entirely acquire a boundary manually by pushing the mouse and dragg
 
 #### ---- Auto Layer Segmentation Tab ----
 
-This block displays two possibilities for semi-automatic segmentation of retinal layers and only a few clicks are needed.
+This block displays two possibilities for semi-automatic segmentation of retinal layers and needs only a few click numbers.
 
-In the Semi-Automatic Tab, the user chooses his desired B-Scan as well as the boundary to-be-detected on the left hand side of the app window. Then, a MATLAB figure opens up waiting for a click on the first pixel of the opted boundary. After clicking on the initial pixel of the desired path, as the user moves the mouse along the path, the smallest cost path based on the brightness of pixels is displayed.He should drag the mouse on the path so as to discover a route which best fits that path and click on whenever he observes that the route has become inappropriate. This process proceeds until the entire path is acquired. The user should press the enter key at this time to close the figure. To facilitate moving between boundaries by the user, we have made colored lamps demonstrating the state of each boundary. Whereas the green color indicates that the boundary is acquired completely, yellow and red colors are signs of partially and not acquired boundaries, respectively.
+In the Semi-Automatic Tab, the user chooses his desired B-Scan as well as the boundary to-be-detected on the left hand side of the app window. Then, a MATLAB figure opens up waiting for a click on the first pixel of the opted boundary. After clicking on the initial pixel of the desired path, as the user moves the mouse along the path, the smallest cost path based on the brightness of pixels is displayed.He should drag the mouse on the path so as to discover a route which best fits that path and click on whenever he observes that the route has become inappropriate. This process proceeds until the entire path is acquired. The user should press the enter key at this time to close the figure. To facilitate moving between boundaries by the user, we have made colored lamps demonstrating the state of each boundary. Whereas the green color indicates that the boundary is acquired completely, the red color is the sign of not yet acquired boundaries.
 
 In the Manual-Grid Tab, the user chooses the to-be-segmented boundary and enters the number of adequate vertical lines by which that boundary should be gridded. After that, a gridded B-Scan opens up in a figure in order for the user to click the boundary exactly on the plotted vertical lines. When finished, the interpolated boundary is depicted.
 
