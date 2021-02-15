@@ -48,4 +48,4 @@ In the Manual tab, fluids are acquired manually and every time the user pushes t
 
 #### ---- Peripapillary Tab ----
 
-First of all, the user should load a relevant data of the optic nerve head. A proper data with a ".png" format is put here for a real test. Following that, the user should adopt a procedure similar to that of the B-Scans' segmentation to acquire all peripapillary-related layers. It should be noted that this section does not segment the GCL-IPL boundary.
+First of all, the user should load a relevant data of the optic nerve head. Following that, the user should adopt a procedure similar to that of the B-Scans' segmentation to acquire all peripapillary-related layers. It should be noted that this section does not segment the GCL-IPL boundary. A proper data with a ".png" format is put here for a real test. 
